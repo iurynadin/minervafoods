@@ -1,0 +1,7 @@
+<svg id="MDI_download-box-outline" data-name="MDI / download-box-outline" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Boundary" fill="#a3aaad" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path class="group-hover:fill-minerva-a1" id="Path_download-box-outline" data-name="Path / download-box-outline" d="M8,17V15h8v2H8m8-7-4,4L8,10h2.5V7h3v3H16M5,3H19a2,2,0,0,1,2,2V19a1.993,1.993,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,5,3M5,5V19H19V5Z" fill="#a3aaad"/>
+</svg>

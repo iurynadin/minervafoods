@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="91.149" viewBox="0 0 125 91.149">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_126" data-name="Rectangle 126" width="125" height="91.149" fill="none" stroke="#707070" stroke-width="4"/>
+    </clipPath>
+  </defs>
+  <g id="Group_130" data-name="Group 130" transform="translate(0 0)">
+    <g id="Group_129" data-name="Group 129" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_372" data-name="Path 372" d="M73,68.807V34.952c0-9.142-18.7-15.628-28.649-15.628S15.7,25.81,15.7,34.952V68.807" transform="translate(18.153 22.342)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_373" data-name="Path 373" d="M35.969,32.458A12.66,12.66,0,0,0,48.99,19.437V14.228A12.66,12.66,0,0,0,35.969,1.2,12.66,12.66,0,0,0,22.948,14.228v5.209A12.66,12.66,0,0,0,35.969,32.458Z" transform="translate(26.531 1.394)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_374" data-name="Path 374" d="M43.482,21.74h2.6c9.036,0,26.044,7.031,26.044,15.626V63.41" transform="translate(50.271 25.135)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_375" data-name="Path 375" d="M52.879,34.874A12.66,12.66,0,0,0,65.9,21.853V16.644A12.662,12.662,0,0,0,52.879,3.621,12.662,12.662,0,0,0,39.858,16.644v5.209A12.66,12.66,0,0,0,52.879,34.874Z" transform="translate(46.081 4.187)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_376" data-name="Path 376" d="M1.206,63.41V37.366c0-8.594,17.005-15.626,26.044-15.626h2.6" transform="translate(1.394 25.135)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_377" data-name="Path 377" d="M19.059,34.874A12.66,12.66,0,0,1,6.038,21.853V16.644A12.662,12.662,0,0,1,19.059,3.621,12.662,12.662,0,0,1,32.08,16.644v5.209A12.66,12.66,0,0,1,19.059,34.874Z" transform="translate(6.981 4.187)" fill="none" stroke="#2b3d4a" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

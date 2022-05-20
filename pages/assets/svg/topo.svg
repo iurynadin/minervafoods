@@ -1,0 +1,12 @@
+<svg id="topo" data-name="topo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="72.877" viewBox="0 0 224 72.877">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_130" data-name="Rectangle 130" width="35.876" height="36.137" transform="translate(0 0)" fill="none" stroke="#e3e0b0" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_149" data-name="Group 149" transform="translate(120.137) rotate(90)">
+    <g id="Group_148" data-name="Group 148" clip-path="url(#clip-path)">
+      <path id="Path_389" data-name="Path 389" d="M20.418,35.061H21.2a13.649,13.649,0,0,0,0-27.3H14.713l.106-6.687L1.077,13.479,14.513,26.7l.077-6.686h6.136a7.521,7.521,0,0,1,0,15.042h-.308" fill="none" stroke="#e3e0b0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.154"/>
+    </g>
+  </g>
+</svg>
