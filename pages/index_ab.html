@@ -21,11 +21,58 @@
         <!-- Sómente para identificar breakpoint. Remover em produção -->
         <!-- <div class="bpvisor z-[100]"><p></p></div> -->
         <!-- HEADER -->
-        <wc-header 
-            title="تقرير الاستدامة 2021" 
-            pdftitle="PDF Completo" 
-            pdflink="./assets/pdfs/minerva_foods-rd2021.pdf">
-        </wc-header>
+
+        <header class="fixed top-0 left-0 w-full bg-white border-t-[12px] 2xl:border-t-[16px] border-minerva-a1 z-50" >
+            <div class="w-full h-16">
+              <div class="w-full h-full flex flex-row flex-wrap items-center justify-between text-p429" >
+                <!-- Logo -->
+                <div class="ml-5">
+                  <span class="font-klarheit_semibold text-[24px] lg:text-[22px] xl:text-[25px] text-minerva-b1">minerva</span>
+                  <span class="font-klarheit text-[24px] lg:text-[22px] xl:text-[25px] text-minerva-a1">foods</span>
+                </div>
+                <!-- Título -->
+                <div class="hidden lg:flex order-3 lg:order-2 lg:w-[25%] ml-5 md:ml-0 font-klarheit_semibold tracking-[0.36px] text-[13px] xs:text-[15px] md:text-[18px] lg:text-[14px] xl:text-[18px] text-p429" >
+                    تقرير الاستدامة 2021
+                </div>
+      
+                <!-- PDFS -->
+                <div class="hidden lg:order-4 lg:flex lg:flex-row lg:w-[25%] lg:items-center lg:flex-nowrap mt-4 lg:justify-around" >
+                  <a href="./assets/pdfs/minerva_foods-rd2021.pdf" target="_blank" class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[15px] xl:text-[17px] 2xl:text-[19px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
+                    <svg id="MDI_download-box-outline" data-name="MDI / download-box-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" > <g id="Boundary" fill="#a3aaad" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0" > <rect width="24" height="24" stroke="none" /> <rect x="0.5" y="0.5" width="23" height="23" fill="none" /> </g> <path class="group-hover:fill-minerva-a1" id="Path_download-box-outline" data-name="Path / download-box-outline" d="M8,17V15h8v2H8m8-7-4,4L8,10h2.5V7h3v3H16M5,3H19a2,2,0,0,1,2,2V19a1.993,1.993,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,5,3M5,5V19H19V5Z" fill="#a3aaad" /> </svg>
+                    PDF Completo
+                  </a>
+                  <!-- <a class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[15px] xl:text-[17px] 2xl:text-[19px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
+                    <svg id="MDI_download-box-outline" data-name="MDI / download-box-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" > <g id="Boundary" fill="#a3aaad" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0" > <rect width="24" height="24" stroke="none" /> <rect x="0.5" y="0.5" width="23" height="23" fill="none" /> </g> <path class="group-hover:fill-minerva-a1" id="Path_download-box-outline" data-name="Path / download-box-outline" d="M8,17V15h8v2H8m8-7-4,4L8,10h2.5V7h3v3H16M5,3H19a2,2,0,0,1,2,2V19a1.993,1.993,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,5,3M5,5V19H19V5Z" fill="#a3aaad" /> </svg>
+                    indicadores
+                  </a> -->
+                </div>
+                <!-- Menu Internacional -->
+                <div class="hidden lg:order-4 lg:flex flex-row items-baseline lg:space-x-3 xl:space-x-5 2xl:space-x-7 mr-8 font-montserrat_medium leading-tight lg:text-[16px] xl:text-[20px]" >
+                  <div class="border-b-2 border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                    <a href="index.html"> PT </a>
+                  </div>
+                  <div class="border-b-2 border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                    <a href="index_EN.html"> EN </a>
+                  </div>
+                  <div class="border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                    <a href="index_ES.html"> ES </a>
+                  </div>
+                  <div class="font-noto_sans_tc font-thin lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                    <a href="index_ch.html">繁</a>
+                  </div>
+                  <div class="font-noto_kufi_arabic font-normal lg:text-lg xl:text-[20px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                    <a href="index_ab.html">العربية</a>
+                  </div>
+                </div>
+                <!-- Hamburger -->
+                <div class="order-2 lg:hidden mr-5 cursor-pointer" id="hbButton">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </header>
         <!-- FIM DO HEADER -->
         <!-- AUDIO BTN -->
         <div class="fixed right-6 top-32 z-40">
@@ -581,14 +628,16 @@
 
                         <div class="w-[45%] lg:w-[23%] 2xl:w-[23%] flex flex-col leading-tight">
                             <div class="font-klarheit_extrabold lg:text-[24px] xl:text-[28px] 2xl:text-[34px]">
-                                Metas até 2030
+                                <!-- Metas até 2030 -->
+                                لأهداف حتى عام 2030
                             </div>
                             <div class="w-full border-t-[10px] border-minerva-b1"></div>
                             <div class="font-montserrat font-semibold text-[40px] lg:text-[72px] xl:text-[86px] 2xl:text-[100px]">
                                 1.
                             </div>
                             <div class="font-klarheit_bold text-[17-px] lg:text-[30px] xl:text-[36px] 2xl:text-[50px]">
-                                Eficiência ambiental nas operações globais
+                                <!-- Eficiência ambiental nas operações globais -->
+                                الكفاءة البيئية في العمليات العالمية
                             </div>
                         </div>
 
@@ -596,20 +645,23 @@
                             <div class="flex flex-row items-start mx-2 lg:mx-0">
                                 <div class="mr-2">►</div>
                                 <div>
-                                    Reduzir em 30% a intensidade das emissões nos escopos 1 e 2
-                                    até 2030;
+                                    <!-- Reduzir em 30% a intensidade das emissões nos escopos 1 e 2 até 2030; -->
+                                    خفض كثافة الانبعاثات في النطاقين 1 و 2 بنسبة 30٪ بحلول عام 2030 ؛
                                 </div>
                             </div>
                             <div class="flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                 <div class="mr-2">►</div>
                                 <div>
-                                    Analisar cenários de descarbonização e trajetória futura de
-                                    emissões;
+                                    <!-- Analisar cenários de descarbonização e trajetória futura de emissões; -->
+                                    تحليل سيناريوهات إزالة الكربون ومسار الانبعاثات في المستقبل ؛
                                 </div>
                             </div>
                             <div class="flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                 <div class="mr-2">►</div>
-                                <div>Ampliar investimentos em energia renovável;</div>
+                                <div>
+                                    <!-- Ampliar investimentos em energia renovável; -->
+                                    توسيع الاستثمارات في مجال الطاقة المتجددة ؛
+                                </div>
                             </div>
                         </div>
 
@@ -617,14 +669,15 @@
                             <div class="flex flex-row items-start mx-2 lg:mx-0">
                                 <div class="mr-2">►</div>
                                 <div>
-                                    Investir em tecnologias para aumentar a eficiência no
-                                    tratamento de efluentes e emissões atmosféricas.
+                                    <!-- Investir em tecnologias para aumentar a eficiência no tratamento de efluentes e emissões atmosféricas. -->
+                                    الاستثمار التقني لزيادة الكفاءة في معالجة النفايات السائلة والانبعاثات الغازية
                                 </div>
                             </div>
                             <div class="relative lg:w-[250px] xl:w-[300px] 2xl:w-[350px]">
                                 <div class="relative z-20 mt-10">
                                     <div class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed">
-                                        Concluídas
+                                        <!-- Concluídas -->
+                                        الانجازات
                                     </div>
                                 </div>
                                 <div class="relative flex flex-row items-start mx-2 lg:mx-0">
@@ -635,8 +688,8 @@
                                         alt=""
                                         />
                                     <div class="z-20 group-hover:text-minerva-a2">
-                                        Manter a emissão líquida zero na matriz energética das
-                                        operações (escopo 2).
+                                        <!-- Manter a emissão líquida zero na matriz energética das operações (escopo 2). -->
+                                        الحفاظ على صافي الانبعاثات في حدود الصفر في مصفوفة الطاقة للعمليات (النطاق 2).
                                     </div>
                                 </div>
                                 <div
@@ -660,46 +713,38 @@
                                     2.
                                 </div>
                                 <div class="font-klarheit_bold text-[20px] lg:text-[30px] xl:text-[36px] 2xl:text-[44px]">
-                                    Desmatamento ilegal zero
+                                    <!-- Desmatamento ilegal zero -->
+                                    عدم إزالة الغابات بشكل غير قانوني
                                 </div>
                             </div>
                             <div class="mt-5 lg:mt-0 mx-2 lg:mx-0 lg:w-[250px] xl:w-[300px] 2xl:w-[20%] flex flex-col justify-start font-montserrat font-normal lg:text-[12px] xl:text-[15px] 2xl:text-[18px]">
                                 <div class="flex flex-row items-start mx-2 lg:mx-0 font-klarheit_extrabold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] leading-tight">
                                     <div class="mr-2">►</div>
-                                    <div> Atingir 100% do monitoramento geográfico das fazendas fornecedoras diretas na América do Sul até 2030: </div>
+                                    <div> 
+                                        <!-- Atingir 100% do monitoramento geográfico das fazendas fornecedoras diretas na América do Sul até 2030:  -->
+                                        تحقيق مراقبة جغرافية 100٪ لمزارع الموردين المباشرين في أمريكا الجنوبية بحلول عام 2030.
+                                    </div>
                                 </div>
                                 <div class="flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                     <div class="mr-2">►</div>
                                     <div>
-                                        Implantar na Colômbia até 2023, Uruguai até 2025 e demais
-                                        países até 2030.
+                                        <!-- Implantar na Colômbia até 2023, Uruguai até 2025 e demais países até 2030. -->
+                                        التنفيذ في كولومبيا بحلول عام 2023 وأوروغواي بحلول عام 2025 ودول أخرى بحلول عام 2030
                                     </div>
                                 </div>
                                 <div class="relative">
                                     <div class="relative z-20 mx-2 lg:mx-0 mt-5">
-                                        <span
-                                            class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed"
-                                            >
-                                        Concluídas
+                                        <span class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed" >
+                                            <!-- Concluídas -->
+                                            الانجازات
                                         </span>
                                     </div>
-                                    <div
-                                        class="group-hover:text-minerva-a2 relative flex flex-row items-start mx-2 lg:mx-0 mt-1"
-                                        >
+                                    <div class="group-hover:text-minerva-a2 relative flex flex-row items-start mx-2 lg:mx-0 mt-1" >
                                         <div class="z-20 mr-2 group-hover:invisible">►</div>
-                                        <img
-                                            class="z-20 absolute -left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300"
-                                            src="./assets/svg/concluido.svg"
-                                            alt=""
-                                            />
+                                        <img class="z-20 absolute -left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300" src="./assets/svg/concluido.svg" alt="" />
                                         <div class="z-20">
-                                            No Brasil, a Minerva Foods é a única empresa a monitorar
-                                            100% das fazendas fornecedoras diretas com mapas
-                                            georreferenciados em todos os biomas em que atua
-                                            (Amazônia, Cerrado, Pantanal e Mata Atlântica), incluindo
-                                            todas as fazendas de ciclo completo, do nascimento ao
-                                            abate de animais. Também foi alcançada a meta de monitorar
-                                            100% das fazendas fornecedoras no Paraguai em 2021.
+                                            <!-- No Brasil, a Minerva Foods é a única empresa a monitorar 100% das fazendas fornecedoras diretas com mapas georreferenciados em todos os biomas em que atua (Amazônia, Cerrado, Pantanal e Mata Atlântica), incluindo todas as fazendas de ciclo completo, do nascimento ao abate de animais. Também foi alcançada a meta de monitorar 100% das fazendas fornecedoras no Paraguai em 2021. -->
+                                            تعد شركة مينيرفا فودز Minerva Foods في البرازيل الشركة الوحيدة التي تراقب 100٪ من مزارع الموردين المباشرين بالخرائط ذات المرجعية الجغرافية في جميع المناطق الأحيائية التي تعمل فيها (الأمازون، السهوب، بنتانال، الغابة الأطلسية)، بما في ذلك جميع مزارع الانتاج من الولادة حتى الذبح. كما تم تحقيق هدف مراقبة المزارع الموردة بنسبة 100٪ في باراغواي في عام 2021.
                                         </div>
                                     </div>
                                     <div
@@ -710,41 +755,39 @@
                             <div class="mt-5 mb-7 lg:mt-0 mx-2 lg:mx-0 lg:w-[290px] xl:w-[340px] 2xl:w-[24%] flex flex-col justify-start font-montserrat font-normal lg:text-[12px] xl:text-[15px] 2xl:text-[18px]">
                                 <div class="flex flex-row items-start mx-2 lg:mx-0 font-klarheit_extrabold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] leading-tight">
                                     <div class="mr-2">►</div>
-                                    <div> Desenvolver e implementar programa de monitoramento de fazendas fornecedoras indiretas para todos os países de operação na América do Sul até 2030. </div>
+                                    <div> 
+                                        <!-- Desenvolver e implementar programa de monitoramento de fazendas fornecedoras indiretas para todos os países de operação na América do Sul até 2030.  -->
+                                        تطوير وتنفيذ برنامج مراقبة مزارع الموردين غير المباشرين لجميع البلدان العاملة في أمريكا الجنوبية بحلول عام 2030.
+                                    </div>
                                 </div>
                                 <div class="flex flex-row items-start mx-2 mt-5 lg:mx-0 font-klarheit_extrabold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] leading-tight">
                                     <div class="mr-2">►</div>
                                     <div>
-                                        Desenvolver e disponibilizar aos produtores rurais
-                                        aplicativo de verificação de fornecedores indiretos em
-                                        parceria com Niceplanet Geotecnologia para operações nos
-                                        países da América do Sul até 2030.
+                                        <!-- Desenvolver e disponibilizar aos produtores rurais aplicativo de verificação de fornecedores indiretos em parceria com Niceplanet Geotecnologia para operações nos países da América do Sul até 2030. -->
+                                        تطوير وإتاحة المنتجين الريفيين من الموردين غير المباشرين بالشراكة مع  Niceplanet Geotechnology في بلدان أمريكا الجنوبية بحلول عام 2030.
                                     </div>
                                 </div>
                                 <div class="relative">
                                     <div class="relative z-20 mx-2 lg:mx-0 mt-5">
                                         <span class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed">
-                                        Concluídas
+                                            <!-- Concluídas -->
+                                            الانجازات
                                         </span>
                                     </div>
                                     <div class="relative flex flex-row items-start mx-2 lg:mx-0 mt-1 pb-4">
                                         <div class="z-20 mr-2 group-hover:invisible">►</div>
-                                        <img
-                                            class="z-20 absolute -left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300"
-                                            src="./assets/svg/concluido.svg"
-                                            alt=""
-                                            />
+                                        <img class="z-20 absolute -left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300" src="./assets/svg/concluido.svg" alt="" />
                                         <div class="z-20 group-hover:text-minerva-a2">
-                                            Integrar a ferramenta Visipec, de rastreabilidade da
-                                            cadeia de fornecedores para a Amazônia, aos sistemas
-                                            internos de monitoramento em 2021;
+                                            <!-- Integrar a ferramenta Visipec, de rastreabilidade da cadeia de fornecedores para a Amazônia, aos sistemas internos de monitoramento em 2021; -->
+                                            دمج أداة  Visipec مع أنظمة المراقبة الداخلية في عام 2021 ، لتتبع سلسلة التوريد لمنطقة الأمازون؛
                                         </div>
                                     </div>
                                     <div class="relative flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                         <div class="z-20 mr-2 group-hover:invisible">►</div>
                                         <img class="z-20 absolute -left-2 lg:-left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300" src="./assets/svg/concluido.svg" alt="" />
                                         <div class="z-20 group-hover:text-minerva-a2">
-                                            Desenvolver e disponibilizar aplicativo aos produtores rurais, o SMGeo Prospec, para verificação de fornecedores indiretos em parceria com Niceplanet Geotecnologia no Brasil em 2021.
+                                            <!-- Desenvolver e disponibilizar aplicativo aos produtores rurais, o SMGeo Prospec, para verificação de fornecedores indiretos em parceria com Niceplanet Geotecnologia no Brasil em 2021. -->
+                                            تطوير وإتاحة تطبيق SMGeo Prospe للمنتجين الريفيين في البرازيل في 2021 ، للتحقق من الموردين غير المباشرين بالشراكة مع Niceplanet Geotechnology .
                                         </div>
                                     </div>
                                     <div class="z-10 absolute group-hover:h-full h-0 bg-white -bottom-2 -left-2 -right-2 top-5 transition-all duration-300"></div>
@@ -759,65 +802,58 @@
                         <div class="w-[45%] lg:w-[23%] 2xl:w-[23%] flex flex-col leading-tight">
                             <div class="w-full border-t-[10px] border-minerva-b1"></div>
                             <div class="font-montserrat font-semibold text-[40px] lg:text-[72px] xl:text-[86px] 2xl:text-[100px]"> 3. </div>
-                            <div class="font-klarheit_bold text-[20px] lg:text-[30px] xl:text-[36px] 2xl:text-[44px]"> Rumo à economia de baixo carbono </div>
+                            <div class="font-klarheit_bold text-[20px] lg:text-[30px] xl:text-[36px] 2xl:text-[44px]"> 
+                                <!-- Rumo à economia de baixo carbono  -->
+                                نحو اقتصاد منخفض الكربون
+                            </div>
                         </div>
                         <div class="mt-5 lg:mt-0 mx-2 lg:mx-0 lg:w-[250px] xl:w-[300px] 2xl:w-[20%] flex flex-col justify-start font-montserrat font-normal lg:text-[12px] xl:text-[15px] 2xl:text-[18px]">
                             <div class="flex flex-row items-start mx-2 lg:mx-0">
                                 <div class="mr-2">►</div>
-                                <div>Fortalecer parcerias com instituições de pesquisa;</div>
+                                <div>
+                                    <!-- Fortalecer parcerias com instituições de pesquisa; -->
+                                    تعزيز الشراكات مع مؤسسات البحث ؛
+                                </div>
                             </div>
                             <div class="flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                 <div class="mr-2">►</div>
                                 <div>
-                                    Ampliar oportunidades de treinamento e assistência técnica a
-                                    produtores sobre práticas regenerativas e de baixa emissão de
-                                    carbono;
+                                    <!-- Ampliar oportunidades de treinamento e assistência técnica a produtores sobre práticas regenerativas e de baixa emissão de carbono; -->
+                                    توسيع فرص التدريب والمساعدة التقنية للمنتجين بشأن الممارسات المتجددة والمنخفضة الكربون ؛
                                 </div>
                             </div>
                         </div>
                         <div class="pb-5 lg:pb-8 mt-5 lg:mt-0 mx-2 lg:mx-0 lg:w-[290px] xl:w-[340px] 2xl:w-[24%] flex flex-col justify-start font-montserrat font-normal lg:text-[12px] xl:text-[15px] 2xl:text-[18px]">
                             <div class="flex flex-row items-start mx-2 lg:mx-0">
                                 <div class="mr-2">►</div>
-                                <div>Apoiar a restauração da vegetação nativa;</div>
+                                <div>
+                                    <!-- Apoiar a restauração da vegetação nativa; -->
+                                    دعم استعادة الغطاء النباتي الأصلي؛
+                                </div>
                             </div>
                             <div class="flex flex-row items-start mx-2 lg:mx-0 mt-5">
                                 <div class="mr-2">►</div>
                                 <div>
-                                    Fortalecer parcerias com instituições financeiras para
-                                    implementar financiamento que reconheça e recompense práticas
-                                    produtivas sustentáveis.
+                                    <!-- Fortalecer parcerias com instituições financeiras para implementar financiamento que reconheça e recompense práticas produtivas sustentáveis. -->
+                                    تعزيز الشراكات مع المؤسسات المالية التي تعزز الممارسات الإنتاجية المستدامة وتكافئها.
                                 </div>
                             </div>
                             <div class="relative">
                                 <div class="relative z-20 mx-2 lg:mx-0 mt-5">
-                                    <span
-                                        class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed"
-                                        >
-                                    Concluídas
+                                    <span class="group-hover:text-minerva-a2 font-montserrat font-medium lg:text-[12px] xl:text-[15px] 2xl:text-[18px] uppercase leading-relaxed" >
+                                        <!-- Concluídas -->
+                                        الانجازات
                                     </span>
                                 </div>
-                                <div
-                                    class="relative flex flex-row items-start mx-2 lg:mx-0 mt-1"
-                                    >
+                                <div class="relative flex flex-row items-start mx-2 lg:mx-0 mt-1" >
                                     <div class="z-20 mr-2 group-hover:invisible">►</div>
-                                    <img
-                                        class="z-20 absolute -left-1 lg:-left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300"
-                                        src="./assets/svg/concluido.svg"
-                                        alt=""
-                                        />
+                                    <img class="z-20 absolute -left-1 lg:-left-3 top-0 h-0 w-0 group-hover:h-6 group-hover:w-6 transition-all duration-300" src="./assets/svg/concluido.svg" alt="" />
                                     <div class="z-20 group-hover:text-minerva-a2">
-                                        Aplicar metodologia para monitorar, relatar e verificar o
-                                        balanço de carbono de fazendas (resultados preliminares
-                                        alcançados).<br />
-                                        <strong
-                                            >Confira os resultados no Relatório de Sustentabilidade
-                                        2021.</strong
-                                            >
+                                        <!-- Aplicar metodologia para monitorar, relatar e verificar o balanço de carbono de fazendas (resultados preliminares alcançados).<br /> <strong >Confira os resultados no Relatório de Sustentabilidade 2021.</strong > -->
+                                        تطبيق منهجية للرصد والإبلاغ والتحقق من توازن الكربون في المزارع (النتائج الأولية المحققة). تحقق من النتائج الواردة في تقرير الاستدامة لعام 2021.
                                     </div>
                                 </div>
-                                <div
-                                    class="z-10 absolute group-hover:h-full h-0 bg-p427 -bottom-2 -left-2 -right-2 top-5 transition-all duration-300"
-                                    ></div>
+                                <div class="z-10 absolute group-hover:h-full h-0 bg-p427 -bottom-2 -left-2 -right-2 top-5 transition-all duration-300" ></div>
                             </div>
                         </div>
                     </div>
@@ -1895,5 +1931,4 @@
         }
         window.onload = init();
     </script>
-    <script src="./wc-header.js"></script>
 </html>

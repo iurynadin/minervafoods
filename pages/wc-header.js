@@ -3,6 +3,11 @@ class MenuLamgElement extends HTMLElement {
         super(); 
     }
     connectedCallback() {
+
+      {/* <div class="font-noto_sans_tc font-light lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+      <a href="index_ko.html">简</a>
+    </div> */}
+
         this.innerHTML = `
         
         <header class="fixed top-0 left-0 w-full bg-white border-t-[12px] 2xl:border-t-[16px] border-minerva-a1 z-50" >
@@ -40,9 +45,7 @@ class MenuLamgElement extends HTMLElement {
               <div class="border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
                 <a href="index_ES.html"> ES </a>
               </div>
-              <div class="font-noto_sans_tc font-light lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
-                <a href="index_ko.html">简</a>
-              </div>
+              
               <div class="font-noto_sans_tc font-thin lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
                 <a href="index_ch.html">繁</a>
               </div>
