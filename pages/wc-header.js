@@ -49,6 +49,9 @@ class MenuLamgElement extends HTMLElement {
               <div class="font-noto_sans_tc font-thin lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
                 <a href="index_ch.html">繁</a>
               </div>
+              <div class="font-noto_sans_tc font-light lg:text-[20px] xl:text-[25px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
+                <a href="index_cht.html">简</a>
+              </div>
               <div class="font-noto_kufi_arabic font-normal lg:text-lg xl:text-[20px] border-b border-transparent hover:text-minerva-a1 hover:border-b-2 hover:border-minerva-a1 cursor-pointer" >
                 <a href="index_ab.html">العربية</a>
               </div>
