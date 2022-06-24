@@ -24,15 +24,15 @@ class MenuLamgElement extends HTMLElement {
             </div>
   
             <!-- PDFS -->
-            <div class="hidden lg:order-4 lg:flex lg:flex-row lg:w-[25%] lg:items-center lg:flex-nowrap mt-4 lg:justify-around" >
-              <a href="${this.getAttribute('pdflink')}" target="_blank" class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[15px] xl:text-[17px] 2xl:text-[19px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
+            <div class="hidden lg:order-4 lg:flex lg:flex-row lg:w-[33%] xl:w-[33%] 2xl:w-[30%] lg:items-center lg:flex-nowrap mt-4 lg:justify-around" >
+              <a href="${this.getAttribute('pdflink')}" target="_blank" class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[14px] xl:text-base 2xl:text-[17px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
                 <svg id="MDI_download-box-outline" data-name="MDI / download-box-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" > <g id="Boundary" fill="#a3aaad" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0" > <rect width="24" height="24" stroke="none" /> <rect x="0.5" y="0.5" width="23" height="23" fill="none" /> </g> <path class="group-hover:fill-minerva-a1" id="Path_download-box-outline" data-name="Path / download-box-outline" d="M8,17V15h8v2H8m8-7-4,4L8,10h2.5V7h3v3H16M5,3H19a2,2,0,0,1,2,2V19a1.993,1.993,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,5,3M5,5V19H19V5Z" fill="#a3aaad" /> </svg>
                 ${this.getAttribute('pdftitle')}
               </a>
-              <!-- <a class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[15px] xl:text-[17px] 2xl:text-[19px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
+              <a href="./assets/pdfs/cadernos-indicadores/en.pdf" target="_blank" class="group flex flex-nowrap border-b-8 items-center self-end pb-2 border-transparent font-klarheit_semibold lg:text-[14px] xl:text-base 2xl:text-[17px] tracking-[0.36px] hover:text-minerva-a1 hover:border-b-8 hover:border-minerva-a1" >
                 <svg id="MDI_download-box-outline" data-name="MDI / download-box-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" > <g id="Boundary" fill="#a3aaad" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0" > <rect width="24" height="24" stroke="none" /> <rect x="0.5" y="0.5" width="23" height="23" fill="none" /> </g> <path class="group-hover:fill-minerva-a1" id="Path_download-box-outline" data-name="Path / download-box-outline" d="M8,17V15h8v2H8m8-7-4,4L8,10h2.5V7h3v3H16M5,3H19a2,2,0,0,1,2,2V19a1.993,1.993,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,5,3M5,5V19H19V5Z" fill="#a3aaad" /> </svg>
-                indicadores
-              </a> -->
+                Disclosures Supplement
+              </a>
             </div>
             <!-- Menu Internacional -->
             <div class="hidden lg:order-4 lg:flex flex-row items-baseline lg:space-x-3 xl:space-x-5 2xl:space-x-7 mr-8 font-montserrat_medium leading-tight lg:text-[16px] xl:text-[20px]" >
